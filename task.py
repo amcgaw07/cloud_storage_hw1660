@@ -1,6 +1,6 @@
 import boto3
 s3 = boto3.resource('s3', 
-    aws_access_key_id='AKIA6Q6ENXXUXYKSL5UX',
+    aws_access_key_id='',
     aws_secret_access_key='no secret key here'
 )
 try:
