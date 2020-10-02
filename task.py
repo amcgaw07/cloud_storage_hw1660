@@ -1,7 +1,7 @@
 import boto3
 s3 = boto3.resource('s3', 
     aws_access_key_id='AKIA6Q6ENXXUXYKSL5UX',
-    aws_secret_access_key='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'
+    aws_secret_access_key='no secret key here'
 )
 try:
     s3.create_bucket(Bucket='testuser00', CreateBucketConfiguration={'LocationConstraint': 'us-west-2'})
